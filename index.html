@@ -18,7 +18,10 @@
     </main>
     <script src="js/dom.js"></script>
     <script>
-        console.log("I am now in the html folder");
+        const getLi = document.getElementsByTagName("li")
+        for(const li of getLi){
+            console.log(li.innerText);
+        }
         
     </script>
 </body>
