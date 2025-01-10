@@ -6,12 +6,17 @@ for(const section of sections){
     section.style.paddingLeft = "16px";
     section.style.backgroundColor = "lightGray"
 }
+const div=document.querySelector('div')
+div.classList.add('divStyle')
 
-const frutes = document.getElementById("frutes-continer")
-frutes.style.textAlign = "center"
+// const frutes = document.getElementById("frutes-continer")
+// frutes.style.textAlign = "center"
 
-const web = document.getElementById("web-devlpo")
-web.classList.add('dom-section')
+const web = document.querySelector("section")
+web.classList.add('customCss')
 
-const web2 = document.getElementById("web-devlpo")
+const web2 = document.getElementById("customId")
 web2.classList.add("text-size")
+web2.classList.add('customCss')
+
+

@@ -16,8 +16,8 @@
 </head>
 <body>
     <header><h1 id="title" class="clTittle" class="blue" class="green">Welcome my Docoment Page</h1></header>
-    <main>
-        <section id="web-devlpo" class="dom-section">
+    <main id="main-content">
+        <section>
             <h3>My awasome Dom</h3>
             <ul>
                 <li>HTML</li>
@@ -25,18 +25,18 @@
                 <li>Java Script</li>
             </ul>
         </section>
-        <section class="visited-list">
+        <section id="customId">
             <h3>Most visited Places</h3>
-            <ul>
+            <ul class="placesUl">
                 <li class="vesited-places">Sundrban</li>
                 <li class="vesited-places">Bandar Ban</li>
                 <li class="vesited-places">Kata Ban</li>
                 <li>Sal Bon</li>
             </ul>
         </section>
-        <section id="frutes-continer">
+        <section>
             <h3 id="frutes-tittle">Frutes list i've like</h3>
-            <ul>
+            <ul id="fevorits">
                 <li>Mango</li>
                 <li>Apple</li>
                 <li>Banana</li>
@@ -45,7 +45,9 @@
         </section>
     </main>
     <script src="js/dom.js"></script>
+    <script src="js/append.js"></script>
     <script src="js/style.js"></script>
+    
     <!-- <script>
         const getLi = document.getElementsByTagName("li")
         for(const li of getLi){
