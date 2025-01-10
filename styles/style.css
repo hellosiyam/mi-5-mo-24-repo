@@ -8,3 +8,10 @@ li{
     list-style: square;
     color: orangered;
 }
+.dom-section{
+    padding-top: "24px";
+}
+.text-size{
+    font-size: x-large;
+    text-align: center;
+}  
