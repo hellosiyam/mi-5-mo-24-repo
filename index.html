@@ -15,7 +15,7 @@
     </style>
 </head>
 <body>
-    <header><h1>Welcome my Docoment Page</h1></header>
+    <header><h1 id="title" class="clTittle" class="blue" class="green">Welcome my Docoment Page</h1></header>
     <main>
         <section>
             <h3>My awasome Dom</h3>
@@ -25,7 +25,7 @@
                 <li>Java Script</li>
             </ul>
         </section>
-        <section>
+        <section class="visited-list">
             <h3>Most visited Places</h3>
             <ul>
                 <li class="vesited-places">Sundrban</li>
@@ -50,12 +50,22 @@
         // for(const li of getLi){
         //     console.log(li.innerText);
         // }
-        const places = document.getElementsByClassName("vesited-places");
-        for(const place of places){
-            console.log(place.innerText);
-        }
-        const frutes =document.getElementById("frutes-tittle");
-        frutes.innerText = "Change The Frutes Tittle    "
+        // const places = document.getElementsByClassName("vesited-places");
+        // for(const place of places){
+        //     console.log(place.innerText);
+        // }
+        // const frutes =document.getElementById("frutes-tittle");
+        // frutes.innerText = "Change The Frutes Tittle"
+
+        const frutes = document.querySelector("#frutes-tittle")
+        console.log(frutes);
+        
+        const places = document.querySelectorAll(".visited-list li")
+            for(const place of places){
+                console.log(place.innerText);
+                
+            }
+        
     </script>
 </body>
 </html>
