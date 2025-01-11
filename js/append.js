@@ -49,3 +49,29 @@ section1.appendChild(ulForCloting);
 
 cloting.appendChild(section1)
 
+const car = document.createElement("section");
+car.innerHTML = `
+<h1>This section for car </h1>
+<ul>
+    <li>Toyota</li>
+    <li>Nissan</li>
+    <li>BMW</li>
+    <li>Audi</li>
+</ui>
+`
+
+mainContiner.appendChild(car);
+
+const phone = document.createElement("section")
+phone.innerHTML = `
+<h1> This Section is for Phone section </h1>
+<ul>
+    <li>I Phone </li>
+    <li>Samsung </li>
+    <li>Vivo </li>
+    <li>Pixel </li>
+</ul>
+`
+
+mainContiner.appendChild(phone)
+
